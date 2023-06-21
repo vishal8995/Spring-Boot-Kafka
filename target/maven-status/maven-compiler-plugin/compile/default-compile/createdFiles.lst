@@ -1,1 +1,6 @@
+com/vishal/springbootkafka/domain/CustomerVisitEvent.class
+META-INF/spring-configuration-metadata.json
+com/vishal/springbootkafka/config/JsonConfig.class
+com/vishal/springbootkafka/domain/CustomerVisitEvent$CustomerVisitEventBuilder.class
+com/vishal/springbootkafka/config/KafkaConfigProperties.class
 com/vishal/springbootkafka/SpringBootKafkaApplication.class

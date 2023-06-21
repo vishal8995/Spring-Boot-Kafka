@@ -1,1 +1,4 @@
 /Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/src/main/java/com/vishal/springbootkafka/SpringBootKafkaApplication.java
+/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/src/main/java/com/vishal/springbootkafka/domain/CustomerVisitEvent.java
+/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/src/main/java/com/vishal/springbootkafka/config/JsonConfig.java
+/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/src/main/java/com/vishal/springbootkafka/config/KafkaConfigProperties.java

@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "dev.kafka",
+      "type": "com.vishal.springbootkafka.config.KafkaConfigProperties",
+      "sourceType": "com.vishal.springbootkafka.config.KafkaConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dev.kafka.topic",
+      "type": "java.lang.String",
+      "sourceType": "com.vishal.springbootkafka.config.KafkaConfigProperties"
+    }
+  ],
+  "hints": []
+}

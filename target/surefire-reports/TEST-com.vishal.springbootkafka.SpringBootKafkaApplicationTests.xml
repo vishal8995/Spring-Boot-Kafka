@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.vishal.springbootkafka.SpringBootKafkaApplicationTests" time="0.911" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.vishal.springbootkafka.SpringBootKafkaApplicationTests" time="1.325" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/test-classes:/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/classes:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.0/spring-boot-starter-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot/3.1.0/spring-boot-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/spring-context/6.0.9/spring-context-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-aop/6.0.9/spring-aop-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-beans/6.0.9/spring-beans-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-expression/6.0.9/spring-expression-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.0/spring-boot-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.0/spring-boot-starter-logging-3.1.0.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vishal/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/vishal/.m2/repository/org/springframework/spring-core/6.0.9/spring-core-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-jcl/6.0.9/spring-jcl-6.0.9.jar:/Users/vishal/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.0/spring-boot-starter-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test/3.1.0/spring-boot-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.0/spring-boot-test-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/vishal/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/vishal/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/vishal/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/vishal/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/vishal/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/vishal/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/vishal/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/vishal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/vishal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/vishal/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/vishal/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/vishal/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/vishal/.m2/repository/org/springframework/spring-test/6.0.9/spring-test-6.0.9.jar:/Users/vishal/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="java.class.path" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/test-classes:/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/classes:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.0/spring-boot-starter-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot/3.1.0/spring-boot-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.0/spring-boot-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.0/spring-boot-starter-logging-3.1.0.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vishal/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/vishal/.m2/repository/org/springframework/spring-core/6.0.9/spring-core-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-jcl/6.0.9/spring-jcl-6.0.9.jar:/Users/vishal/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.0/spring-boot-starter-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test/3.1.0/spring-boot-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.0/spring-boot-test-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/vishal/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/vishal/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/vishal/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/vishal/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/vishal/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/vishal/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/vishal/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/vishal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/vishal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/vishal/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/vishal/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/vishal/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/vishal/.m2/repository/org/springframework/spring-test/6.0.9/spring-test-6.0.9.jar:/Users/vishal/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/vishal/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.1.0/spring-boot-configuration-processor-3.1.0.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/Users/vishal/.m2/repository/org/springframework/kafka/spring-kafka/3.0.7/spring-kafka-3.0.7.jar:/Users/vishal/.m2/repository/org/springframework/spring-context/6.0.9/spring-context-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-aop/6.0.9/spring-aop-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-beans/6.0.9/spring-beans-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-expression/6.0.9/spring-expression-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-messaging/6.0.9/spring-messaging-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-tx/6.0.9/spring-tx-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/retry/spring-retry/2.0.1/spring-retry-2.0.1.jar:/Users/vishal/.m2/repository/org/apache/kafka/kafka-clients/3.4.0/kafka-clients-3.4.0.jar:/Users/vishal/.m2/repository/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar:/Users/vishal/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/vishal/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/Users/vishal/.m2/repository/io/micrometer/micrometer-observation/1.11.0/micrometer-observation-1.11.0.jar:/Users/vishal/.m2/repository/io/micrometer/micrometer-commons/1.11.0/micrometer-commons-1.11.0.jar:/Users/vishal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -13,9 +13,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/surefire/surefirebooter-20230617141118079_3.jar /Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/surefire 2023-06-17T14-11-17_297-jvmRun1 surefire-20230617141118079_1tmp surefire_0-20230617141118079_2tmp"/>
+    <property name="sun.java.command" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/surefire/surefirebooter-20230621004518117_3.jar /Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/surefire 2023-06-21T00-45-18_077-jvmRun1 surefire-20230621004518117_1tmp surefire_0-20230621004518117_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/test-classes:/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/classes:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.0/spring-boot-starter-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot/3.1.0/spring-boot-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/spring-context/6.0.9/spring-context-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-aop/6.0.9/spring-aop-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-beans/6.0.9/spring-beans-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-expression/6.0.9/spring-expression-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.0/spring-boot-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.0/spring-boot-starter-logging-3.1.0.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vishal/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/vishal/.m2/repository/org/springframework/spring-core/6.0.9/spring-core-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-jcl/6.0.9/spring-jcl-6.0.9.jar:/Users/vishal/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.0/spring-boot-starter-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test/3.1.0/spring-boot-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.0/spring-boot-test-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/vishal/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/vishal/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/vishal/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/vishal/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/vishal/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/vishal/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/vishal/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/vishal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/vishal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/vishal/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/vishal/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/vishal/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/vishal/.m2/repository/org/springframework/spring-test/6.0.9/spring-test-6.0.9.jar:/Users/vishal/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/test-classes:/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/classes:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.0/spring-boot-starter-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot/3.1.0/spring-boot-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.0/spring-boot-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.0/spring-boot-starter-logging-3.1.0.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-classic/1.4.7/logback-classic-1.4.7.jar:/Users/vishal/.m2/repository/ch/qos/logback/logback-core/1.4.7/logback-core-1.4.7.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/Users/vishal/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/vishal/.m2/repository/org/slf4j/jul-to-slf4j/2.0.7/jul-to-slf4j-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/vishal/.m2/repository/org/springframework/spring-core/6.0.9/spring-core-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-jcl/6.0.9/spring-jcl-6.0.9.jar:/Users/vishal/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.0/spring-boot-starter-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test/3.1.0/spring-boot-test-3.1.0.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.0/spring-boot-test-autoconfigure-3.1.0.jar:/Users/vishal/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/Users/vishal/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/vishal/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/Users/vishal/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.2/jakarta.activation-api-2.1.2.jar:/Users/vishal/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/Users/vishal/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/Users/vishal/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/Users/vishal/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/vishal/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/vishal/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/vishal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/vishal/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/Users/vishal/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.4/byte-buddy-agent-1.14.4.jar:/Users/vishal/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/vishal/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/Users/vishal/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/vishal/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/vishal/.m2/repository/org/springframework/spring-test/6.0.9/spring-test-6.0.9.jar:/Users/vishal/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/Users/vishal/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/Users/vishal/.m2/repository/org/springframework/boot/spring-boot-configuration-processor/3.1.0/spring-boot-configuration-processor-3.1.0.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/vishal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.2/jackson-datatype-jsr310-2.15.2.jar:/Users/vishal/.m2/repository/org/springframework/kafka/spring-kafka/3.0.7/spring-kafka-3.0.7.jar:/Users/vishal/.m2/repository/org/springframework/spring-context/6.0.9/spring-context-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-aop/6.0.9/spring-aop-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-beans/6.0.9/spring-beans-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-expression/6.0.9/spring-expression-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-messaging/6.0.9/spring-messaging-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/spring-tx/6.0.9/spring-tx-6.0.9.jar:/Users/vishal/.m2/repository/org/springframework/retry/spring-retry/2.0.1/spring-retry-2.0.1.jar:/Users/vishal/.m2/repository/org/apache/kafka/kafka-clients/3.4.0/kafka-clients-3.4.0.jar:/Users/vishal/.m2/repository/com/github/luben/zstd-jni/1.5.2-1/zstd-jni-1.5.2-1.jar:/Users/vishal/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/vishal/.m2/repository/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar:/Users/vishal/.m2/repository/io/micrometer/micrometer-observation/1.11.0/micrometer-observation-1.11.0.jar:/Users/vishal/.m2/repository/io/micrometer/micrometer-commons/1.11.0/micrometer-commons-1.11.0.jar:/Users/vishal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/vishal"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/surefire/surefirebooter-20230617141118079_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka/target/surefire/surefirebooter-20230621004518117_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.1+10-21"/>
     <property name="user.name" value="vishal"/>
@@ -44,12 +44,11 @@
     <property name="localRepository" value="/Users/vishal/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/t2/bn7r9_q10fl9sqj6h192bfr80000gn/T/"/>
-    <property name="idea.version" value="2022.2.3"/>
     <property name="java.version" value="19.0.1"/>
     <property name="user.dir" value="/Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="86629"/>
+    <property name="PID" value="11213"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/vishal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -60,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="contextLoads" classname="com.vishal.springbootkafka.SpringBootKafkaApplicationTests" time="0.441">
-    <system-out><![CDATA[14:11:18.444 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.vishal.springbootkafka.SpringBootKafkaApplicationTests]: SpringBootKafkaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:11:18.486 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.vishal.springbootkafka.SpringBootKafkaApplication for test class com.vishal.springbootkafka.SpringBootKafkaApplicationTests
+  <testcase name="contextLoads" classname="com.vishal.springbootkafka.SpringBootKafkaApplicationTests" time="0.424">
+    <system-out><![CDATA[00:45:18.450 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.vishal.springbootkafka.SpringBootKafkaApplicationTests]: SpringBootKafkaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:45:18.494 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.vishal.springbootkafka.SpringBootKafkaApplication for test class com.vishal.springbootkafka.SpringBootKafkaApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -72,9 +71,106 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.0)
 
-2023-06-17T14:11:18.639+01:00  INFO 86629 --- [           main] c.v.s.SpringBootKafkaApplicationTests    : Starting SpringBootKafkaApplicationTests using Java 19.0.1 with PID 86629 (started by vishal in /Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka)
-2023-06-17T14:11:18.639+01:00  INFO 86629 --- [           main] c.v.s.SpringBootKafkaApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2023-06-17T14:11:18.829+01:00  INFO 86629 --- [           main] c.v.s.SpringBootKafkaApplicationTests    : Started SpringBootKafkaApplicationTests in 0.29 seconds (process running for 0.695)
+2023-06-21T00:45:18.652+01:00  INFO 11213 --- [           main] c.v.s.SpringBootKafkaApplicationTests    : Starting SpringBootKafkaApplicationTests using Java 19.0.1 with PID 11213 (started by vishal in /Users/vishal/Documents/Vishal/Work/Code/Self Projects/Spring-Boot-Kafka)
+2023-06-21T00:45:18.653+01:00  INFO 11213 --- [           main] c.v.s.SpringBootKafkaApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T00:45:19.041+01:00  INFO 11213 --- [           main] c.v.s.SpringBootKafkaApplicationTests    : Started SpringBootKafkaApplicationTests in 0.494 seconds (process running for 0.867)
+2023-06-21T00:45:19.054+01:00  INFO 11213 --- [           main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2023-06-21T00:45:19.101+01:00  INFO 11213 --- [           main] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-06-21T00:45:19.122+01:00  INFO 11213 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.4.0
+2023-06-21T00:45:19.122+01:00  INFO 11213 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 2e1947d240607d53
+2023-06-21T00:45:19.122+01:00  INFO 11213 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1687304719121
+2023-06-21T00:45:19.254+01:00  INFO 11213 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition customer.visit-0 to 0 since the associated topicId changed from null to p6xp_flNQgeRWdR6igXhtA
+2023-06-21T00:45:19.255+01:00  INFO 11213 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: zHLNBOLxTR-tfu0o5ciZ3w
+2023-06-21T00:45:19.259+01:00  INFO 11213 --- [ad | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 1 with epoch 0
 ]]></system-out>
   </testcase>
 </testsuite>
